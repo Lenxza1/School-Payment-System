@@ -16,38 +16,43 @@ A simple PHP-based school tuition (SPP) payment management system with a compani
 
 | Technology | Purpose |
 |-----------|---------|
-| **PHP** | Server-side scripting (web version) |
-| **Java (NetBeans)** | Desktop application version |
-| **MySQL** | Database |
-| **HTML/CSS** | Frontend (no framework, plain) |
-| **Bootstrap** | Basic styling template |
+| PHP | Server-side scripting (web version) |
+| Java (NetBeans) | Desktop application version |
+| MySQL | Database |
+| HTML/CSS | Frontend (no framework, plain) |
+| Bootstrap | Basic styling template |
 
 ## 📂 Structure
 
-``b
-├── index.php              # Login page
-├── register.php          # Registration
-├── koneksi.php            # Database connection
-├── logout.php             # Logout
-├── dashboard.php          # Admin dashboard
-├── laporan.php            # Payment reports
-├── siswa/                 # Student management
-├── kelas/                 # Class management
-├── spp/                   # Tuition fee management
-├── petugas/               # Staff management
-├── transaksi/             # Payment transactions
-├── lsp/                   # Java NetBeans desktop app version
-├── template/              # Layout templates
-└── inc/                   # Includes & configs
 ```
+index.php        Login page
+register.php     Registration
+koneksi.php      Database connection
+logout.php       Logout
+dashboard.php    Admin dashboard
+laporan.php      Payment reports
+siswa/           Student management
+kelas/           Class management
+spp/             Tuition fee management
+petugas/         Staff management
+transaksi/       Payment transactions
+lsp/             Java NetBeans desktop app version
+template/        Layout templates
+inc/             Includes and configs
+```
+
 Note: The `lsp/` folder contains a Java NetBeans desktop application version of the same system.
 
 ## 🚀 Running It
-```bash
-# Requirements: PHP 7+, MySQL, Apache/XAMPP
+
+Requirements: PHP 7+, MySQL, Apache/XAMPP
+
+```
 git clone https://github.com/Lenxza1/School-Payment-System.git
-# Import the database, update koneksi.php, serve with XAMPP
 ```
 
+Import the database, update `koneksi.php` with your credentials, and serve with XAMPP.
+
 ## 📄 License
+
 Archived for educational and portfolio purposes.
