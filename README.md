@@ -1,6 +1,6 @@
 # School Payment System
 
-> ⚠️ **ARCHIVED** — My first web development project (2023), built for a vocational school competency exam (UKOM).
+> ⚠️ **ARCHIVED** — Built for a vocational school competency exam (UKOM), 2023.
 
 A simple PHP-based school tuition (SPP) payment management system with a companion Java NetBeans desktop app.
 
